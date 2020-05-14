@@ -1,6 +1,7 @@
 # Import Splinter and BeautifulSoup
 from splinter import Browser
 from bs4 import BeautifulSoup
+import numpy as np
 import pandas as pd
 import datetime as dt
 
@@ -88,7 +89,7 @@ def scrape_all():
         return df.to_html()
 
     browser.quit()
-    
+
 if __name__ == "__main__":
     # If running as script, print scraped data
     print(scrape_all())
