@@ -5,6 +5,7 @@ app_.py
 hemi test.ipynb
 scraping-old.py
 scraping.ipynb
+scraping.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
